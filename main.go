@@ -20,7 +20,11 @@ func main() {
 	//测试并发打印10个Hello world
 	//simpleChannel.Channel_test()
 	//测试用两个channel连接三个goroutine,打印自然数的平方(小于10000)
-	simpleChannel.Channel_connection()
+	//simpleChannel.Channel_connection()
+	//测试单向channel，输出100内自然数的平方
+	//simpleChannel.OnewayChannel()
+	//测试带缓存的channel
+	simpleChannel.MirroredQuery()
 }
 
 
