@@ -1,23 +1,23 @@
 package time_client
 
 import (
+	"io"
 	"log"
 	"net"
 	"os"
-	"io"
 )
 
-func Netcat(){
-	conn,err:=net.Dial("tcp","localhost:8000")
-	if err!=nil{
+func Netcat() {
+	conn, err := net.Dial("tcp", "localhost:8000")
+	if err != nil {
 		log.Fatal(err)
 	}
 	defer conn.Close()
-	mustCopy(os.Stdout,conn)
+	mustCopy(os.Stdout, conn)
 }
 
-func mustCopy(dst io.Writer, src io.Reader){
-	if _,err:=io.Copy(dst,src);err!=nil{
+func mustCopy(dst io.Writer, src io.Reader) {
+	if _, err := io.Copy(dst, src); err != nil {
 		log.Fatal(err)
 	}
 }

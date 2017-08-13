@@ -5,8 +5,8 @@ import (
 	//Fibonacci "github.com/Programming-Exercises/src/Fibonacci_sequence"
 	//timeServer "github.com/Programming-Exercises/src/time_server"
 	//timeClent "github.com/Programming-Exercises/src/time_client"
-	simpleChannel "github.com/Programming-Exercises/src/simple_channel"
-
+	//simpleChannel "github.com/Programming-Exercises/src/simple_channel"
+	sort "github.com/Programming-Exercises/src/SortingAlgorithm"
 )
 
 func main() {
@@ -24,7 +24,7 @@ func main() {
 	//测试单向channel，输出100内自然数的平方
 	//simpleChannel.OnewayChannel()
 	//测试带缓存的channel
-	simpleChannel.MirroredQuery()
+	//simpleChannel.MirroredQuery()
+	//排序算法测试
+	sort.Run()
 }
-
-
