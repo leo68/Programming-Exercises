@@ -7,6 +7,7 @@ import (
 	//timeClent "github.com/Programming-Exercises/src/time_client"
 	//simpleChannel "github.com/Programming-Exercises/src/simple_channel"
 	sort "github.com/Programming-Exercises/src/SortingAlgorithm"
+	//lastWorldLength "github.com/Programming-Exercises/src/worldLength"
 )
 
 func main() {
@@ -26,5 +27,14 @@ func main() {
 	//测试带缓存的channel
 	//simpleChannel.MirroredQuery()
 	//排序算法测试
-	sort.Run()
+	//sort.Run()
+	//计算输入的字符串的最后一个单词的长度，以逗号分隔
+	//lastWorldLength.WorldLength()
+
+	//lastWorldLength.Str_contain()
+
+	//sort.RemoveSortImp()
+
+	//sort.LengthFormat()
+	sort.StrTransform()
 }
