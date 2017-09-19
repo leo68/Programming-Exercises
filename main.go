@@ -6,9 +6,16 @@ import (
 	//timeServer "github.com/Programming-Exercises/src/time_server"
 	//timeClent "github.com/Programming-Exercises/src/time_client"
 	//simpleChannel "github.com/Programming-Exercises/src/simple_channel"
-	sort "github.com/Programming-Exercises/src/SortingAlgorithm"
+	//sort "github.com/Programming-Exercises/src/SortingAlgorithm"
 	//lastWorldLength "github.com/Programming-Exercises/src/worldLength"
-)
+	//function "github.com/Programming-Exercises/src/function"
+	//"github.com/Programming-Exercises/src/function"
+	//"github.com/Programming-Exercises/src/magiccoin"
+	//"github.com/Programming-Exercises/src/oppositenumber"
+	//"github.com/Programming-Exercises/src/stringpiece"
+	"github.com/Programming-Exercises/src/resortseries"
+
+	)
 
 func main() {
 	fmt.Println("Hello world!")
@@ -36,5 +43,17 @@ func main() {
 	//sort.RemoveSortImp()
 
 	//sort.LengthFormat()
-	sort.StrTransform()
+	//sort.StrTransform()
+
+	//mysprint:=function.MySprint(1)
+	//fmt.Print(mysprint)
+
+	//magiccoin.MagicCoin()
+
+	//oppositenumber.OppositeNumber()
+
+	//stringpiece.StringPiecen()
+
+	resortseries.ResortSeries()
+
 }

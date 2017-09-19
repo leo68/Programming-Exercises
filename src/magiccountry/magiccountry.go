@@ -1,0 +1,4 @@
+package magiccountry
+
+func MagicCountry() {
+}
