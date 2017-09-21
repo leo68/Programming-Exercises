@@ -13,7 +13,8 @@ import (
 	//"github.com/Programming-Exercises/src/magiccoin"
 	//"github.com/Programming-Exercises/src/oppositenumber"
 	//"github.com/Programming-Exercises/src/stringpiece"
-	"github.com/Programming-Exercises/src/resortseries"
+	//"github.com/Programming-Exercises/src/resortseries"
+	"github.com/Programming-Exercises/src/bracketscheck"
 
 	)
 
@@ -54,6 +55,8 @@ func main() {
 
 	//stringpiece.StringPiecen()
 
-	resortseries.ResortSeries()
+	//resortseries.ResortSeries()
+
+	bracketscheck.BracketsCheck()
 
 }
